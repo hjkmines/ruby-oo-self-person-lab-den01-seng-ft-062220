@@ -18,6 +18,11 @@ class Person
     @happiness > 7 ? true : false 
   end 
   
+  def get_paid(salary) 
+    @money += salary 
+    return "all about the benjamins"
+  end 
+  
   def take_bath 
     @hygiene += 4
     return "♪ Rub-a-dub just relaxing in the tub ♫"
