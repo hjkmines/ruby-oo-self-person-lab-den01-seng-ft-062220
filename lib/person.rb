@@ -10,6 +10,17 @@ class Person
     @hygiene = 8
   end 
   
+  def clean?
+    @hygiene > 7 ? true : false 
+  end
   
+  def happy?
+    @happiness > 7 ? true : false 
+  end 
+  
+  def take_bath 
+    @hygiene += 4
+    return ""
+  end 
   
 end
